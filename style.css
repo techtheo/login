@@ -1,0 +1,170 @@
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    background-color: #dddcdf !important;
+    width: 100%;
+    
+}
+
+img{
+    height: 30px;
+    width: 110.16px !important;
+  
+}
+.login h1{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    width: 571px;
+    height: 210px;
+    top: 204px;
+    left: 78px;
+    gap: 0px;
+    opacity: 0px;
+}
+.card {
+    height: 570px !important;
+    border-radius: 13px !important;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight box shadow */
+    border-radius: 8px; /* Optional rounded corners */
+  }
+
+.card, .form-control, .btn {
+    all: unset; /* Remove all inherited styles */
+    display: block; /* Ensure elements still display properly */
+    width: 100%; /* Apply width for inputs */
+    padding: 8px; /* Add padding to make it look better */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width */
+  }
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+.btn {
+    padding: 8px 16px;
+    background-color: #662D90 !important;
+    color: #fff !important;
+    text-align: center;
+    cursor: pointer;
+    border: none !important;
+    border-radius: 9px !important;
+  }
+.login .container{
+    width: 481px !important;
+
+    
+}
+.card h2{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.7 3px; 
+    text-align: left;
+
+}
+.card-title{
+    font-size: 23px !important;
+}
+.card-text{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+
+}
+.footer-text {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 19.36px;
+    /* text-align: left; */
+
+    text-align: center ;
+}
+.form-holder{
+    margin-top:70px;
+}
+.footer-text span{
+    color: #662D90 !important;
+    font-family: Inter;
+    
+}
+.forget-psw span{
+    color: #662D90;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+label{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid  #dddcdf ;
+    border-radius: 8px;
+
+}
+.psw-Mismatch{
+    color: rgba(219, 17, 17, 0.836);
+    font-size: 13px;
+    font-family: 'inter';
+    font-weight: 500;
+}
+.code-input {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.code-input:focus {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #662D90 ;
+    outline: none;
+}
+.code-Mismatch {
+    border: 1px solid rgba(219, 17, 17, 0.836); 
+    outline: none;
+}
+.Incorrect-footer{
+    color:rgba(219, 17, 17, 0.836) ;
+    text-align: center;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 19.36px;
+}
+
+.Resend-code{
+ margin-top: -15px;
+ font-size: 13px;
+ font-weight: 500;
+}
+.Resend-code span{
+color: #662D90;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .card{
+        width: 540px !important;
+    }
+  }
